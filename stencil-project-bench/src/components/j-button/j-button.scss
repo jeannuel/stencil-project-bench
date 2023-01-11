@@ -1,0 +1,25 @@
+.j-button {
+  cursor: pointer;
+  background-color: #e9e9ee;
+  border: 1px solid #dbdbdb;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+
+  &.contained {
+    background-color: #dfdfdf;
+    border: 1px solid #dbdbdb;
+  }
+  &.outlined {
+    background-color: transparent;
+    border: 1px solid #c3c3c3;
+  }
+
+  &:hover {
+    background-color: #e4e4e4;
+    border: 1px solid #dbdbdb;
+  }
+  &:active {
+    background-color: #cacaca;
+    border: 1px solid #dbdbdb;
+  }
+}
